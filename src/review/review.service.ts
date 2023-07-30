@@ -3,7 +3,7 @@ import { ReviewModel } from './review.model';
 import { ModelType, DocumentType } from '@typegoose/typegoose/lib/types';
 import { CreateReviewDto } from './dto/create-review.dto';
 import { Types } from 'mongoose';
-import { InjectModel } from 'nestjs-typegoose';
+import { InjectModel } from '@m8a/nestjs-typegoose';
 
 @Injectable()
 export class ReviewService {
